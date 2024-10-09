@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome da Empresa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body >
+<div style="font-family: Arial, Helvetica, sans-serif;">
+    <nav class="navbar">
+        <a href="#" class="navbar-logo">
+            <img src="C:\Users\karin\Desktop\CSSpi\vznd.png" alt="Logo da Empresa">
+        </a>
+        <ul class="navbar-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre Nós</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+        <a href="#" class="navbar-login"><b>Login</b></a>
+    </nav>
+    <div class="mensagemHome">
+        <span style="color: #50FFDF;">Segurança</span> para você <br>
+        e sua empresa.
+    </div>
+    <div class="mensagemHome2">
+        Com os sistemas <b>VZ<span style="color: #50FFDF;">ND</span></b>, você terá maior <b>controle</b><br>
+        e <b>segurança</b> para lidar com vazamentos de gás.<br>
+        <a href="calculadora.html" class="simular-button"><B>Simular Economia</B></a>
+    </div>
+</div>
+</body>
+</html>
+
+<script>
+    
+    // Obtém a URL atual
+   // const currentUrl = window.location.pathname;
+
+    // Seleciona todos os links da navbar
+   // const links = document.querySelectorAll('.navbar-menu a');
+
+    // Itera sobre cada link
+    //links.forEach(link => {
+        // Verifica se o href do link corresponde à URL atual
+      //  if (link.getAttribute('href') === currentUrl.split('/').pop()) {
+            link.parentElement.classList.add('active'); // Adiciona a classe active ao li correspondente
+      //  }
+  //  });
+</script>
